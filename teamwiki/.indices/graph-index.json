@@ -1,0 +1,498 @@
+{
+  "schemaVersion": "team-wiki.graph-index.v1",
+  "generatedAt": "2026-09-27T23:45:18.836Z",
+  "nodes": [
+    {
+      "slug": "interface/GET /healthz",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "GET /healthz",
+      "domain": "src"
+    },
+    {
+      "slug": "error/ValueError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "ValueError",
+      "domain": "src"
+    },
+    {
+      "slug": "config/MODAL_TOKEN_ID",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "MODAL_TOKEN_ID",
+      "domain": "src"
+    },
+    {
+      "slug": "config/MODAL_TOKEN_SECRET",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "MODAL_TOKEN_SECRET",
+      "domain": "src"
+    },
+    {
+      "slug": "component/LogContextMiddleware",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "LogContextMiddleware",
+      "domain": "src"
+    },
+    {
+      "slug": "component/Settings",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "Settings",
+      "domain": "src"
+    },
+    {
+      "slug": "component/LiveSettings",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "LiveSettings",
+      "domain": "src"
+    },
+    {
+      "slug": "component/AnalysisSettings",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AnalysisSettings",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SpeakerInterval",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SpeakerInterval",
+      "domain": "src"
+    },
+    {
+      "slug": "error/HTTPException",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "HTTPException",
+      "domain": "src"
+    },
+    {
+      "slug": "component/DiarizationSegment",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DiarizationSegment",
+      "domain": "src"
+    },
+    {
+      "slug": "component/DiarizationRequest",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DiarizationRequest",
+      "domain": "src"
+    },
+    {
+      "slug": "component/AttributedSegment",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AttributedSegment",
+      "domain": "src"
+    },
+    {
+      "slug": "component/DiarizationResponse",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "DiarizationResponse",
+      "domain": "src"
+    },
+    {
+      "slug": "error/AudioDecodeError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "AudioDecodeError",
+      "domain": "src"
+    },
+    {
+      "slug": "component/AudioDecoder",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AudioDecoder",
+      "domain": "src"
+    },
+    {
+      "slug": "error/RuntimeError",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "RuntimeError",
+      "domain": "src"
+    },
+    {
+      "slug": "error/SessionProtocolError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "SessionProtocolError",
+      "domain": "src"
+    },
+    {
+      "slug": "component/Message",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "Message",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionStartPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionStartPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionStart",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionStart",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionReadyPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionReadyPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionReady",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionReady",
+      "domain": "src"
+    },
+    {
+      "slug": "component/TranscriptCommittedPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TranscriptCommittedPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/TranscriptCommitted",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TranscriptCommitted",
+      "domain": "src"
+    },
+    {
+      "slug": "component/AudioMetaPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AudioMetaPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/AudioMeta",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "AudioMeta",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionPause",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionPause",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionPausedPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionPausedPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionPaused",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionPaused",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionResume",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionResume",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionResumedPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionResumedPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionResumed",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionResumed",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionStop",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionStop",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionEndedPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionEndedPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionEnded",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionEnded",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionErrorPayload",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionErrorPayload",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionError",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionError",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SessionState",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SessionState",
+      "domain": "src"
+    },
+    {
+      "slug": "component/RecordingSession",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "RecordingSession",
+      "domain": "src"
+    },
+    {
+      "slug": "error/STTProviderError",
+      "type": "error",
+      "confidence": "EXTRACTED",
+      "title": "STTProviderError",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SpeechmaticsClient",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SpeechmaticsClient",
+      "domain": "src"
+    },
+    {
+      "slug": "component/Speaker",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "Speaker",
+      "domain": "src"
+    },
+    {
+      "slug": "component/TranscriptionSegment",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TranscriptionSegment",
+      "domain": "src"
+    },
+    {
+      "slug": "component/SummaryRequest",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SummaryRequest",
+      "domain": "src"
+    },
+    {
+      "slug": "config/project",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "project",
+      "domain": "."
+    },
+    {
+      "slug": "config/dependency-groups",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "dependency-groups",
+      "domain": "."
+    },
+    {
+      "slug": "config/build-system",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "build-system",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.hatch.build.targets.wheel",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.hatch.build.targets.wheel",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.pytest.ini_options",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.pytest.ini_options",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff",
+      "domain": "."
+    },
+    {
+      "slug": "config/tool.ruff.lint",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "tool.ruff.lint",
+      "domain": "."
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "type": "architecture",
+      "confidence": "EXTRACTED",
+      "title": "github__100-hours-a-week__KTB4-6th-AI code index",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/interface",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interface",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/error",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "error",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/config",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "config",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/component",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "component",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/relation-src",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-src",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/interfaces",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interfaces",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/dependency-paths",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "dependency-paths",
+      "domain": "code-knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "from": "src/meety_ai/logging.py",
+      "to": "src/meety_ai/logging.py",
+      "relation": "DEPENDS_ON",
+      "weight": 0.9,
+      "source": "code-ast"
+    },
+    {
+      "from": "src/meety_ai/diarization/modal_app.py",
+      "to": "src/meety_ai/diarization/modal_app.py",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "src/meety_ai/diarization/router.py",
+      "to": "src/meety_ai/diarization/modal_app.py",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/interface",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/error",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/config",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/component",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/relation-src",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/interfaces",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/index",
+      "to": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/dependency-paths",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    }
+  ]
+}

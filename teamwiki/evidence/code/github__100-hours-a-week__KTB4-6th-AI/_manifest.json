@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "team-wiki.codebase-output-manifest.v2",
+  "project": "github__100-hours-a-week__KTB4-6th-AI",
+  "generatedAt": "2026-09-27T23:45:37.301Z",
+  "components": [
+    {
+      "slug": "src",
+      "docPath": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/src.md",
+      "title": "src",
+      "category": "service",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "实时录音音频解码与会话管理，并对接外部STT服务完成语音转写",
+        "基于Modal部署的说话人分离(diarization)服务，将转写片段归属到具体说话人",
+        "会议内容分析与摘要生成，通过HTTP接口对外提供录音、分离、摘要能力",
+        "应用配置管理(实时/分析参数)与请求日志上下文中间件"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "pyproject.toml",
+      "docPath": "evidence/code/github__100-hours-a-week__KTB4-6th-AI/pyproject.toml.md",
+      "title": "pyproject.toml",
+      "category": "data",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "声明项目元数据(名称、版本、描述)",
+        "管理运行时与开发依赖",
+        "配置构建后端及工具链(lint/test/format)"
+      ],
+      "entrypoints": []
+    }
+  ],
+  "edges": []
+}

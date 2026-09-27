@@ -1,0 +1,20 @@
+{
+  "domain": "会议语音智能处理",
+  "description": "Meety会议助手AI后端：转写会议录音、分离说话人并生成摘要",
+  "keywords": [
+    "会议录音",
+    "语音转写",
+    "STT",
+    "说话人分离",
+    "speaker diarization",
+    "会议摘要",
+    "Meety",
+    "AI会议助手",
+    "语音识别",
+    "会议纪要"
+  ],
+  "components": [
+    "src",
+    "pyproject.toml"
+  ]
+}

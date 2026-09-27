@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "lastScan": "2026-09-27T23:45:37.308Z",
+  "files": [
+    {
+      "relativePath": "src/meety_ai/app.py",
+      "sha256": "569c9cc710f4afced3eb0c22f82119835765a929016def874a58c6246fe03947",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/diarization/modal_app.py",
+      "sha256": "8e654ad22842240dc5242ee44bf9c14b3f5e07dc266f43406611a679d11a8661",
+      "language": "python"
+    },
+    {
+      "relativePath": "pyproject.toml",
+      "sha256": "ff9b5288c843a6bba9f969c2e83a7ed4bb9ce4fdba83ac2f232839847afd8a0d",
+      "language": "toml"
+    },
+    {
+      "relativePath": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a",
+      "language": "yaml"
+    },
+    {
+      "relativePath": ".github/workflows/cicd.yml",
+      "sha256": "e1e4f5dae1103e960b947cbc5a8004bd1b92e21dd1e73dafd1dc4eacf0d7b3bc",
+      "language": "yaml"
+    },
+    {
+      "relativePath": "src/meety_ai/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/analysis.py",
+      "sha256": "d7f74f950416121861b44d1c9d160cd6b5b0bd542ce8619cb281d3ac2aa43477",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/live.py",
+      "sha256": "b9f961c809affc19418d3a1d00c9cd2a098f51f2738a359da735898e8d18ba24",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/log_context.py",
+      "sha256": "ac66a37e2a259d9fc5119f0db7087732840031863f9239f9c13d92c8482cced6",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/logging.py",
+      "sha256": "62ef6074699ca2d0fad0166621103fe9401d36cda8db91997f1751ae29d20e84",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/settings.py",
+      "sha256": "ba30bb0a888472120d20b8bd11a2108bb74e28b031f7038b468c92bce5d5199c",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/diarization/__init__.py",
+      "sha256": "95ab3e8a59aaf2119a2cfad84bc656db896f5d75b886413a6b292d30add13518",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/diarization/router.py",
+      "sha256": "ed74f7ee08ab9ba17535e511212975e6a6cd816140e7a5bf30d52214f0bc695a",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/diarization/schemas.py",
+      "sha256": "d40c8e3999941e6234d90b86d432944fd96b635d18fbd0b92e2ffe5a3851c122",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/__init__.py",
+      "sha256": "b1ee1d1e7391f1bc818e6f80d031b3e70d5ea529e00e3fb27fbc679425bb451b",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/decoder.py",
+      "sha256": "c7445338332d35d349f1dd02d595f6528bc8d3794938491d34d91dd7e46192f0",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/router.py",
+      "sha256": "edb3852d23488022e09401d6df95c11b99a1b769e0eba366a5fca90a4710767d",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/schemas.py",
+      "sha256": "5676c34e18d6f1107638f9c797099aa2a7aa9443fc663a37d5f369d13e94afb4",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/session.py",
+      "sha256": "dcb50f931356cd3783ca82b95ca59567bb2f5aafb72ed4758f54be3d83931c6d",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/stt_client.py",
+      "sha256": "c0f5d493f63426c02bd43ea502953476079f8e45143c4ad5ce21bfcc23e6e3e4",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/recording/transcript.py",
+      "sha256": "aeddf37bdfdb90e6cd2d3a32553b1eace30c3a14c4ffee005d39ce6c847d81ad",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/summary/chain.py",
+      "sha256": "839472f68565016b6b14ceaaa43ed2ca0fc6370a42e3b9ed542b3d77b8449f97",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/summary/router.py",
+      "sha256": "b261c19168f309f9b722619dd5abd01a630847f7004b74be712fabcbc6d908f1",
+      "language": "python"
+    },
+    {
+      "relativePath": "src/meety_ai/summary/schemas.py",
+      "sha256": "ffb1cbc498d368e520cf185f081848e0ed2a68a14a9111b854886ef330d3e597",
+      "language": "python"
+    }
+  ],
+  "headSha": "bff770980dfc067c4e964c36c73839fb3edac143",
+  "repoUrl": "https://github.com/100-hours-a-week/KTB4-6th-AI",
+  "branch": "main"
+}
