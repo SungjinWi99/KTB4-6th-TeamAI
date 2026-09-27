@@ -66,7 +66,7 @@ For an unresolved draft use Proposed and describe the tentative choice explicitl
 
 Show the complete draft for review. Save when the user requests saving or existing instructions already authorize it; do not ask for the same permission again. Apply project placement rules:
 
-1. **Place it.** Use `docs/adr/` at the project root for system-wide decisions, or `src/<context>/docs/adr/` when `CONTEXT-MAP.md` assigns it to that context. Respect a supplied destination. Without a repository, use the intended project directory; when working inside wigglewiki, keep project ADRs in their project rather than creating a code-project directory in the vault.
+1. **Place it.** Use `docs/adr/` at the project root for system-wide decisions, or `src/<context>/docs/adr/` when `CONTEXT-MAP.md` assigns it to that context. Respect a supplied destination. Without a repository, use the intended project directory.
 2. **Number it.** Create the directory only when saving its first ADR. Scan the target directory for the highest number and increment. Use `0001-slug.md` and `# ADR-0001: <제목>` consistently.
 3. **Supersede.** Reference the previous ADR in the new Context. Update its Status to `Superseded by ADR-NNNN` only when the accepted replacement is saved, not while drafting a proposal.
 
@@ -74,4 +74,4 @@ Before delivery, check that reasons trace to the final drivers, evidence support
 
 ## After
 
-Mention follow-up implementation or verification that matters to the decision. If vocabulary changed, suggest updating the project's context document. If there is a reusable lesson, offer a Learning note through `wigglewiki`. Do not automatically start a teaching workspace or write unrelated notes.
+Mention follow-up implementation or verification that matters to the decision. If vocabulary changed, suggest updating the project's context document. Do not automatically start a teaching workspace or write unrelated notes.
