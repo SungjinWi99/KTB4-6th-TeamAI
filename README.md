@@ -1,36 +1,27 @@
-# KTB4 6팀 공용 AI 스킬
+# KTB4 6팀 공용 AI 스킬·플러그인·MCP
 
-Claude Code와 Codex에서 같은 팀 스킬을 쓰기 위한 저장소입니다. AI 도구를 열 때마다 최신 스킬을 받아오고, 팀 스킬 사용 횟수를 하루 한 번 `stats` 브랜치에 기록합니다.
+[AIManager](https://github.com/SungjinWi99/AIManager)로 관리하는 팀 데이터 저장소입니다 (비공개).
 
-## 설치 (macOS, 한 번만)
+## 설치 (한 번만)
 
-저장소 접근 권한(Collaborator)과 GitHub 로그인(`gh auth login` 등)이 필요합니다.
+저장소 Collaborator 초대 수락과 GitHub 로그인(`gh auth login`)이 필요합니다.
 
 ```sh
-git clone https://github.com/SungjinWi99/KTB4-6th-TeamAI.git ~/.team-skills
-sh ~/.team-skills/bin/install.sh
+git clone https://github.com/SungjinWi99/AIManager.git ~/.aimanager/tool
+python3 ~/.aimanager/tool/aimanager.py init https://github.com/SungjinWi99/KTB4-6th-TeamAI.git
 ```
 
-- Claude Code(`~/.claude/settings.json`)와 Codex(`~/.codex/hooks.json`)에 훅을 등록합니다.
-- Codex는 `/hooks`에서 새 훅을 신뢰(trust)해야 동작합니다.
-- AI 도구를 새로 열면 팀 스킬이 보입니다.
+Codex를 쓰면 Codex의 `/hooks`에서 AIManager 훅을 신뢰(trust)해 주세요. AI 도구를 새로 열면 팀 스킬이 보입니다.
 
 ## 쓰기
 
-| 하고 싶은 것 | 방법 |
-|---|---|
-| 팀 스킬 쓰기 | 평소처럼. Claude Code는 `/스킬이름`, Codex는 `$스킬이름` |
-| 내 스킬 공유, 팀 스킬 수정 | `/share-skill` (Codex는 `$share-skill`) → PR이 열림 → 리뷰 후 머지 |
-| 지금 바로 최신화 | `sh ~/.team-skills/bin/sync.sh` |
-| 사용 통계 보기 | `sh ~/.team-skills/bin/digest.sh` (기본 7일, `digest.sh 30`처럼 일수 지정) |
+AI에게 말로 요청하면 됩니다: "이 스킬 팀에 공유해줘", "팀 MCP에 ○○ 추가해줘", "팀 스킬 사용 통계 보여줘".
+명령은 [AIManager README](https://github.com/SungjinWi99/AIManager#명령)를 보세요.
 
-- 팀 스킬은 `~/.claude/skills`, `~/.agents/skills`에 링크로 들어갑니다. **같은 이름의 개인 스킬이 있으면 개인 스킬이 우선**합니다.
-- 팀 스킬을 고치려면 `~/.team-skills`에서 직접 커밋하지 말고 `/share-skill`로 PR을 올리세요.
+## 구성
 
-## 기록되는 것
-
-스킬을 쓴 시각, 도구(claude/codex), 팀 스킬 이름, 세션 ID만 기록합니다. 프롬프트나 코드는 기록하지 않습니다. 같은 세션에서 같은 스킬은 한 번으로 셉니다.
-
-## 제거
-
-`~/.claude/settings.json`, `~/.codex/hooks.json`에서 `.team-skills/bin`이 들어간 훅을 지우고, `~/.claude/skills`, `~/.agents/skills`에서 `~/.team-skills`를 가리키는 링크와 `~/.team-skills` 폴더를 지웁니다.
+- `skills/` 팀 스킬: `adr`, `domain-modeling`, `grilling`, `grill-with-docs`
+- `mcp/mcp.json` 팀 MCP 서버
+- `aimanager.json` 팀 플러그인·npm 도구 선언
+- `stats` 브랜치 팀 스킬 사용 기록
+- `THIRD_PARTY_NOTICES.md` 외부 스킬 출처와 라이선스

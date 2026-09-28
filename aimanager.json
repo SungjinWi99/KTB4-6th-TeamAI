@@ -1,0 +1,10 @@
+{
+  "team": "KTB4-6th",
+  "packages": {
+    "npm": [],
+    "claude": {
+      "marketplaces": [],
+      "plugins": []
+    }
+  }
+}
