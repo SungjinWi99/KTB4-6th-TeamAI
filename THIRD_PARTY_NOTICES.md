@@ -31,3 +31,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## IP as Logo
+
+- Skill: `ip-as-logo`
+- Source: https://github.com/s1dashu/ip-as-logo-skill
+- Revision: `acb834c717bcd0a487c49732d08397ba280d690b`
+- Changes: none; SKILL.md, README.md, LICENSE and assets preserved.
+- License: MIT; Copyright (c) 2026 s1dashu. Full license: [skills/ip-as-logo/LICENSE](skills/ip-as-logo/LICENSE).
